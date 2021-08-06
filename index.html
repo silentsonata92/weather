@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <!-- Compiled and minified CSS -->
+
+  <link rel="stylesheet" href="./Assets/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <h1 class="brand-logo center">Weather App</h1>
+    </div>
+  </nav>
+  <div class="row margin">
+      <div class="col s12 m2 gray">
+        <div class="row">
+          <div class="input-field col s10 m9">
+            <input id="search" type="text">
+            <label class="active" for="search">Search Any City</label>
+          </div>
+          <i id='myBtn' class="small material-icons btn col s2 m3">cloud</i>
+          <a id='clearBtn' class="btn col s12 m12">clear all</a>
+          <!-- <a id='myBtn' class="waves-effect waves-light btn col s2">Search</a> -->
+          <ul class="collection col s12 m12 center-align" id="myList">
+          </ul>
+        </div>
+      </div>
+    <div class="container">
+
+      <div class="col m8 offset-m2 s8">
+        <div class="row" id="today"></div>
+        <div class="row">
+          <div class="col s4" id="dayOne"></div>
+          <div class="col s4" id="dayTwo"></div>
+          <div class="col s4" id="dayThree"></div>
+          <div class="col s4" id="dayFour"></div>
+          <div class="col s4" id="dayFive"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./Assets/script.js"></script>
+  </body>
+  
+  </html>
+
+  

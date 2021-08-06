@@ -1,0 +1,40 @@
+.margin {
+  margin-left: 1%;
+}
+
+.btn {
+  margin-top: 15px;
+}
+
+body{
+  background-color:azure;
+}
+
+nav{
+  height: 100px;
+  background-color: black;
+}
+
+.gray {
+  background-color: aliceblue;
+  padding-right: 2%!important;
+  padding-left: 2%!important;
+  margin-top: 1%;
+}
+
+.listItem{
+  text-transform: capitalize;
+}
+
+.card {
+  justify-content: center !important;
+  margin-right: 5%!important;
+}
+
+/* .container{
+  padding-left: 2%!important;
+} */
+
+#today{
+  width: 100%;
+}
